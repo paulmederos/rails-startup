@@ -15,7 +15,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: iosintent-dev
+  database: AppName-dev
   pool: 5
   username: paul
   password: love

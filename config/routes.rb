@@ -1,4 +1,4 @@
-IOSIntent::Application.routes.draw do
+AppName::Application.routes.draw do
 
   match 'user/edit' => 'users#edit', :as => :edit_current_user
 

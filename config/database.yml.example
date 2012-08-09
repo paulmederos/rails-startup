@@ -20,7 +20,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: iOSIntent_development
+  database: AppName_development
   pool: 5
   username: # Your username here
   password: # Your password here
@@ -46,15 +46,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: iOSIntent_test
+  database: AppName_test
   pool: 5
-  username: iOSIntent
+  username: AppName
   password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: iOSIntent_production
+  database: AppName_production
   pool: 5
-  username: iOSIntent
+  username: AppName
   password:

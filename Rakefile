@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-IOSIntent::Application.load_tasks
+AppName::Application.load_tasks
